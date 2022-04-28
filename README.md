@@ -1,2 +1,3 @@
-# relaxometry
-ISMRM 2022 educational session on relaxometry
+## Relaxometry: Where, Why & How It Is & Is Not Used
+
+Slides will be available here.

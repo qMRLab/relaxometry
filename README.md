@@ -1,9 +1,0 @@
-## The relaxometry hype cycle
-
-> A recap of my ISMRM educational talk about MRI relaxometry, given at the 2022 educational sessions. Read on for a history of the field and some exciting 2023 announcements!
-
-In 2022 I was invited by the International Society for Magnetic Resonance in Medicine to give an educational talk about relaxometry entitled “Relaxometry: Where, Why & How It Is & Is Not Used.”
-
-Back when I accepted I told myself I really need to change the title, as it is too broad and has too many ampersands. However, as with most reminders I have set since 2020, this one is still on my to-do list, and the ISMRM conference proceedings wait for no one.
-
-<center><iframe src="https://hackmd.io/@8Y8ZlwWtTI2IITpAV-xXyA/rJGGWCJ8c#/" frameborder="0"   style="position:absolute;top:0;left:0;width:60%;height:60%;"></iframe></center>

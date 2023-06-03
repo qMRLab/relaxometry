@@ -1,13 +1,47 @@
+<html>
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <style>
+  body, h1, h2, h3, h4, h5 {
+      font-family: 'STIX Two Text';
+  }
+  
+  .caption {
+      line-height:1.25;
+      font-size:80%
+  }
+  
+  #site-navigation {
+      display: none;
+  }
+  
+  #main-content{
+      margin: 0 auto;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  </style>
+  </head>
+  <body>
 <center>
-<h2 style="font-size:2em;"> <a href="https://qantarot.substack.com/p/the-relaxometry-hype-cycle">The relaxometry hype cycle</a></h2>
+<h2 style="font-size:3em;"> <a href="https://qantarot.substack.com/p/the-relaxometry-hype-cycle">The relaxometry hype cycle</a></h2>
 </center>
 
-<p style="text-align:justify;">
-A recap of my ISMRM educational talk about MRI relaxometry, given at the 2022 educational sessions. Read on for a history of the field and some exciting 2023 announcements!
-</p>
+<div id="main-content" style="font-size:1.25em;">
 
 <p style="text-align:justify;">
-In 2022 I was invited by the International Society for Magnetic Resonance in Medicine to give an educational talk about relaxometry entitled “Relaxometry: Where, Why & How It Is & Is Not Used.”
+  A recap of my ISMRM educational talk about MRI relaxometry, given at the 2022 educational sessions. The slides are below, read on for a history of the field and some exciting 2023 announcements!
+</p>
+
+<p align="center"><iframe src="https://hackmd.io/@8Y8ZlwWtTI2IITpAV-xXyA/rJGGWCJ8c#/" frameborder="0"   style="display:block;top:0;left:0;width:80%;height:80%;"></iframe></p>
+
+<p style="text-align:justify;">
+In 2022 I was invited by the International Society for Magnetic Resonance in Medicine to give an educational talk about relaxometry entitled "Relaxometry: Where, Why & How It Is & Is Not Used."
 </p>
 
 <p style="text-align:justify;">
@@ -19,11 +53,11 @@ So here I am stuck with a title that reads more like an editorial than an educat
 </p>
 
 <p style="text-align:justify;">
-Relaxometry is a field with a <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)15182-3/fulltext">glorious and controversial history</a>, and no 20–minute slide deck will ever do it justice. It is full of egos and inventions, patents and lawsuits, high expectations and deep disillusionments. Rather than a slide dedicated to each of these, I want to give it an impressionistic overview, painted over with a coat of personal opinions and ruminations about the future of the field.
+Relaxometry is a field with a <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)15182-3/fulltext">glorious and controversial history</a>, and no 20-minute slide deck will ever do it justice. It is full of egos and inventions, patents and lawsuits, high expectations and deep disillusionments. Rather than a slide dedicated to each of these, I want to give it an impressionistic overview, painted over with a coat of personal opinions and ruminations about the future of the field.
 </p>
 
 <p style="text-align:justify;">
-In doing so, I was inspired by my student Agâh Karakuzu, whose stellar <a href="https://publications.polymtl.ca/10224/">PhD thesis</a> reminded me how fun MR history is, while also teaching me facts that every aspiring relaxometer (is that a word?) needs to know. Many of the examples in this blog post are taken from Agah’s <a href="https://publications.polymtl.ca/10224/">thesis</a>, which recently won a special mention at the Polytechnique graduate thesis competition. I encourage you all to read it!
+In doing so, I was inspired by my student Agah Karakuzu, whose stellar <a href="https://publications.polymtl.ca/10224/">PhD thesis</a> reminded me how fun MR history is, while also teaching me facts that every aspiring relaxometer (is that a word?) needs to know. Many of the examples in this blog post are taken from Agah's <a href="https://publications.polymtl.ca/10224/">thesis</a>, which recently won a special mention at the Polytechnique graduate thesis competition. I encourage you all to read it!
 </p>
 
 <p >
@@ -36,7 +70,9 @@ For those unfamiliar with the <a href="https://en.wikipedia.org/wiki/Gartner_hyp
 
 <center>
 <img src="im1.png" width="600">
-<i>The entire interactive timeline can be viewed in the slideshow after this blog post.</i>
+<p class="caption">
+The entire interactive timeline can be viewed in the slideshow at the top of this blog post.
+</p>
 </center>
 
 <p>
@@ -44,7 +80,7 @@ For those unfamiliar with the <a href="https://en.wikipedia.org/wiki/Gartner_hyp
 </p>
 
 <p style="text-align:justify;">
-In the context of relaxometry, there is no doubt that the technology trigger is the invention of NMR and its ability to measure relaxation times. Researchers have been using NMR to characterize chemical compounds since the 1930s, but it was the insight of using in vivo relaxometry to tell a cancerous tissue sample from a healthy one, that gave birth to MRI. In 1970 Look and Locker published their <a href="https://pubs.aip.org/aip/rsi/article-abstract/41/2/250/304593/Time-Saving-in-Measurement-of-NMR-and-EPR">seminal paper</a> on measuring relaxation times with NMR, and in 1971 Damadian published a study on the use of NMR-based T1 and T2 values for detecting malignant tumors (<a href="https://www.science.org/doi/abs/10.1126/science.171.3976.1151">Damadian</a>, 1971). Based on this work, he issued a patent application titled “an apparatus and method for detecting cancer in tissue” in 1972, which was accepted in 1974 (<a href="https://patents.google.com/patent/US3789832A/en">Damadian, 1974</a>).
+In the context of relaxometry, there is no doubt that the technology trigger is the invention of NMR and its ability to measure relaxation times. Researchers have been using NMR to characterize chemical compounds since the 1930s, but it was the insight of using in vivo relaxometry to tell a cancerous tissue sample from a healthy one, that gave birth to MRI. In 1970 Look and Locker published their <a href="https://pubs.aip.org/aip/rsi/article-abstract/41/2/250/304593/Time-Saving-in-Measurement-of-NMR-and-EPR">seminal paper</a> on measuring relaxation times with NMR, and in 1971 Damadian published a study on the use of NMR-based T1 and T2 values for detecting malignant tumors (<a href="https://www.science.org/doi/abs/10.1126/science.171.3976.1151">Damadian</a>, 1971). Based on this work, he issued a patent application titled "an apparatus and method for detecting cancer in tissue" in 1972, which was accepted in 1974 (<a href="https://patents.google.com/patent/US3789832A/en">Damadian, 1974</a>).
 </p>
 
 <p>
@@ -52,7 +88,7 @@ In the context of relaxometry, there is no doubt that the technology trigger is 
 </p>
 
 <p style="text-align:justify;">
-With undeniable insight from the studies of Lauterbur and Mansfield, Damadian’s team built the first human MRI scanner in 1978 and made it commercially available in two years. This scanner was essentially a relaxometry device, using T1 and T2 measurements to create a malignancy index and to distinguish between cancerous and non-cancerous tissue. One could argue that the end of the 70s is the peak of inflated expectations, as many researchers believed that the future of MRI is relaxometry. Yet around the same time, GE started manufacturing scanners without paying royalty to Damadian as consideration for his patent. In the decade that followed, GE sold nearly 600 scanners, for which Damadian’s company Fonar filed a patent infringement lawsuit in the late 1990s and was awarded $128,705,766 as <a href="https://en.wikipedia.org/wiki/Fonar_Corp._v._General_Electric_Co.">compensation</a> for pecuniary damages.
+With undeniable insight from the studies of Lauterbur and Mansfield, Damadian's team built the first human MRI scanner in 1978 and made it commercially available in two years. This scanner was essentially a relaxometry device, using T1 and T2 measurements to create a malignancy index and to distinguish between cancerous and non-cancerous tissue. One could argue that the end of the 70s is the peak of inflated expectations, as many researchers believed that the future of MRI is relaxometry. Yet around the same time, GE started manufacturing scanners without paying royalty to Damadian as consideration for his patent. In the decade that followed, GE sold nearly 600 scanners, for which Damadian's company Fonar filed a patent infringement lawsuit in the late 1990s and was awarded $128,705,766 as <a href="https://en.wikipedia.org/wiki/Fonar_Corp._v._General_Electric_Co.">compensation</a> for pecuniary damages.
 </p>
 
 <p>
@@ -60,11 +96,11 @@ With undeniable insight from the studies of Lauterbur and Mansfield, Damadian’
 </p>
 
 <p style="text-align:justify;">
-It is precisely this lawsuit that resulted in disillusionment about the potential of relaxometry to revolutionize medical imaging. Basically, the court reached the verdict that GE infringed on Damadian’s patent on most counts, except for the count of relaxometry. The original judgment on the verdict reads:
+It is precisely this lawsuit that resulted in disillusionment about the potential of relaxometry to revolutionize medical imaging. Basically, the court reached the verdict that GE infringed on Damadian's patent on most counts, except for the count of relaxometry. The original judgment on the verdict reads:
 </p>
 
 <p style="text-align:justify;">
-“The Court found that GE had infringed U.S. Patent 3,789,832, MRI’s first patent, which was filed with the U.S. Patent Office in 1972 by Dr. Damadian. The Court concluded that MRI machines rely on the tissue NMR relaxations that were claimed in the patent as a method for detecting cancer, and that MRI machines use these tissue relaxations to control pixel brightness and supply the image contrasts that detect cancer in patients.”
+"The Court found that GE had infringed U.S. Patent 3,789,832, MRI's first patent, which was filed with the U.S. Patent Office in 1972 by Dr. Damadian. The Court concluded that MRI machines rely on the tissue NMR relaxations that were claimed in the patent as a method for detecting cancer, and that MRI machines use these tissue relaxations to control pixel brightness and supply the image contrasts that detect cancer in patients."
 </p>
 
 <p style="text-align:justify;">
@@ -134,7 +170,7 @@ For this presentation I asked the Twitter community to give me an update on what
 </ul>
 
 <p style="text-align:justify;">
-The space is short to go through each of these separately, but I have attempted to find the relevant articles and post them below each tweet at the following <a href="https://qmrlab.org/relaxometry/">link</a>, so feel free to explore and join the conversation. 2020 also saw the publication of the most comprehensive <a href="https://books.google.ca/books?hl=en&lr=&id=65ngDwAAQBAJ&oi=fnd&pg=PP1&dq=gulani+seiberlich+book+qmri&ots=y2F4ZWobR6&sig=4cyirTBItVK8nNiM8RhdJNAxheY&redir_esc=y">textbook</a> on qMRI, edited by Nicole Seiberlich, Vikas Gulani, Adrienne Campbell-Washburn, Steven Sourbron, Mariya Ivanova Doneva, Fernando Calamante, and Houchun Harry Hu. Among the book’s 1000+ pages is our interactive <a href="https://qmrlab.org/t1_book/intro">chapter</a> on T1/T1rho mapping, published under a Creative Commons license so you can read it for free.
+The space is short to go through each of these separately, but I have attempted to find the relevant articles and post them below each tweet at the following <a href="https://qmrlab.org/relaxometry/">link</a>, so feel free to explore and join the conversation. 2020 also saw the publication of the most comprehensive <a href="https://books.google.ca/books?hl=en&lr=&id=65ngDwAAQBAJ&oi=fnd&pg=PP1&dq=gulani+seiberlich+book+qmri&ots=y2F4ZWobR6&sig=4cyirTBItVK8nNiM8RhdJNAxheY&redir_esc=y">textbook</a> on qMRI, edited by Nicole Seiberlich, Vikas Gulani, Adrienne Campbell-Washburn, Steven Sourbron, Mariya Ivanova Doneva, Fernando Calamante, and Houchun Harry Hu. Among the book's 1000+ pages is our interactive <a href="https://qmrlab.org/t1_book/intro">chapter</a> on T1/T1rho mapping, published under a Creative Commons license so you can read it for free.
 </p>
 
 <p>A NEW TROUGH?</p>
@@ -152,7 +188,7 @@ Fortunately, there is hope on the horizon. The qMRI community has ralied behind 
 </p>
 
 <p style="text-align:justify;">
-2023 is the year when a lot of these efforts are starting to formalize. The ISMRM has formed an ad hoc committee on <a href="https://submissions.mirasmart.com/ISMRM2023/Itinerary/ConferenceMatrixEventDetail.aspx?ses=W-06">standards and benchmarks</a>, and the <a href="https://mrathon.github.io/">MRathon</a> (a hackathon for MRI professionals) is organizing its second edition focusing on <a href="https://mrathon.github.io/toronto2023/">comparable MRI</a>. We are also pitching to the <a href="https://submissions.mirasmart.com/ISMRM2023/Itinerary/ConferenceMatrixEventDetail.aspx?ses=SS-02">Shark Tank</a> the idea of a vendor-neutral app store (MRI Fair) that has the potential to turn MRIs into measurement devices. Finally, we are working on community building by sharing the results of the T1 mapping <a href="https://rrsg2020.github.io/paper/paper">challenge</a>, publishing the eighth MRM Highlights <a href="https://blog.ismrm.org/2023/06/02/mrm-highlights-magazine-volume-8/">magazine</a>, and organizing the MRathon Highlights after-party on June 8 to celebrate reproducibility and transparency in research. There’s never been a more fun time to do relaxometry, and we want you to be a part of it!
+2023 is the year when a lot of these efforts are starting to formalize. The ISMRM has formed an ad hoc committee on <a href="https://submissions.mirasmart.com/ISMRM2023/Itinerary/ConferenceMatrixEventDetail.aspx?ses=W-06">standards and benchmarks</a>, and the <a href="https://mrathon.github.io/">MRathon</a> (a hackathon for MRI professionals) is organizing its second edition focusing on <a href="https://mrathon.github.io/toronto2023/">comparable MRI</a>. We are also pitching to the <a href="https://submissions.mirasmart.com/ISMRM2023/Itinerary/ConferenceMatrixEventDetail.aspx?ses=SS-02">Shark Tank</a> the idea of a vendor-neutral app store (MRI Fair) that has the potential to turn MRIs into measurement devices. Finally, we are working on community building by sharing the results of the T1 mapping <a href="https://rrsg2020.github.io/paper/paper">challenge</a>, publishing the eighth MRM Highlights <a href="https://blog.ismrm.org/2023/06/02/mrm-highlights-magazine-volume-8/">magazine</a>, and organizing the MRathon Highlights after-party on June 8 to celebrate reproducibility and transparency in research. There's never been a more fun time to do relaxometry, and we want you to be a part of it!
 </p>
 
 <p style="text-align:justify;">
@@ -217,4 +253,6 @@ REFERENCES
   <li>2022 <a href="https://www.biorxiv.org/content/10.1101/2021.12.27.474259v2">https://www.biorxiv.org/content/10.1101/2021.12.27.474259v2</a></li>
 </ul>
 
-<p align="center"><iframe src="https://hackmd.io/@8Y8ZlwWtTI2IITpAV-xXyA/rJGGWCJ8c#/" frameborder="0"   style="display:block;top:0;left:0;width:100%;height:100%;"></iframe></p>
+</div>
+</body>
+</html>
